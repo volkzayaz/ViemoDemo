@@ -1,0 +1,59 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire",
+      "state" : {
+        "branch" : "master",
+        "revision" : "827a879ae2dcc473dfcae8ae188b992f66cd07d6"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher",
+      "state" : {
+        "branch" : "master",
+        "revision" : "b878ab34e2142d6c8ac7f4f6bb4cda4f1c70cd18"
+      }
+    },
+    {
+      "identity" : "rxdatasources",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RxSwiftCommunity/RxDataSources",
+      "state" : {
+        "revision" : "90c29b48b628479097fe775ed1966d75ac374518",
+        "version" : "5.0.2"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift",
+      "state" : {
+        "branch" : "main",
+        "revision" : "65bec4c253418c46ddc136424f46f333f086be1a"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f222cbdf325885926566172f6f5f06af95473158"
+      }
+    },
+    {
+      "identity" : "toolbox",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/toolboxprovider/toolbox",
+      "state" : {
+        "branch" : "main",
+        "revision" : "fe1bbcfe4fa1753b428268a5690d59b45df6bdff"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		736E1D462B177EFA002307CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E1D452B177EFA002307CE /* AppDelegate.swift */; };
+		736E1D4B2B177EFA002307CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736E1D492B177EFA002307CE /* Main.storyboard */; };
+		736E1D4D2B177EFB002307CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736E1D4C2B177EFB002307CE /* Assets.xcassets */; };
+		736E1D502B177EFB002307CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736E1D4E2B177EFB002307CE /* LaunchScreen.storyboard */; };
+		736E1D582B177F10002307CE /* Toolbox in Frameworks */ = {isa = PBXBuildFile; productRef = 736E1D572B177F10002307CE /* Toolbox */; };
+		736E1D5A2B177F67002307CE /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E1D592B177F67002307CE /* AppState.swift */; };
+		736E1D5C2B178080002307CE /* VideoCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E1D5B2B178080002307CE /* VideoCellView.swift */; };
+		736E1D5E2B178187002307CE /* SearchVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E1D5D2B178187002307CE /* SearchVideoViewController.swift */; };
+		736E1D612B1781DB002307CE /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = 736E1D602B1781DB002307CE /* Differentiator */; };
+		736E1D632B1781DB002307CE /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 736E1D622B1781DB002307CE /* RxDataSources */; };
+		736E1D652B179DC2002307CE /* VimeoVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E1D642B179DC2002307CE /* VimeoVideo.swift */; };
+		736E1D672B179E8A002307CE /* VimeoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E1D662B179E8A002307CE /* VimeoRequest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		736E1D422B177EFA002307CE /* VimeoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimeoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		736E1D452B177EFA002307CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		736E1D4A2B177EFA002307CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		736E1D4C2B177EFB002307CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		736E1D4F2B177EFB002307CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		736E1D592B177F67002307CE /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		736E1D5B2B178080002307CE /* VideoCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCellView.swift; sourceTree = "<group>"; };
+		736E1D5D2B178187002307CE /* SearchVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVideoViewController.swift; sourceTree = "<group>"; };
+		736E1D642B179DC2002307CE /* VimeoVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimeoVideo.swift; sourceTree = "<group>"; };
+		736E1D662B179E8A002307CE /* VimeoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimeoRequest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		736E1D3F2B177EFA002307CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736E1D632B1781DB002307CE /* RxDataSources in Frameworks */,
+				736E1D612B1781DB002307CE /* Differentiator in Frameworks */,
+				736E1D582B177F10002307CE /* Toolbox in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		736E1D392B177EFA002307CE = {
+			isa = PBXGroup;
+			children = (
+				736E1D442B177EFA002307CE /* VimeoDemo */,
+				736E1D432B177EFA002307CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		736E1D432B177EFA002307CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				736E1D422B177EFA002307CE /* VimeoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		736E1D442B177EFA002307CE /* VimeoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				736E1D6B2B17C1E9002307CE /* UI */,
+				736E1D6A2B17C1B0002307CE /* model */,
+				736E1D452B177EFA002307CE /* AppDelegate.swift */,
+				736E1D492B177EFA002307CE /* Main.storyboard */,
+				736E1D4C2B177EFB002307CE /* Assets.xcassets */,
+				736E1D4E2B177EFB002307CE /* LaunchScreen.storyboard */,
+				736E1D592B177F67002307CE /* AppState.swift */,
+			);
+			path = VimeoDemo;
+			sourceTree = "<group>";
+		};
+		736E1D6A2B17C1B0002307CE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				736E1D642B179DC2002307CE /* VimeoVideo.swift */,
+				736E1D662B179E8A002307CE /* VimeoRequest.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		736E1D6B2B17C1E9002307CE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				736E1D5B2B178080002307CE /* VideoCellView.swift */,
+				736E1D5D2B178187002307CE /* SearchVideoViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		736E1D412B177EFA002307CE /* VimeoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 736E1D532B177EFB002307CE /* Build configuration list for PBXNativeTarget "VimeoDemo" */;
+			buildPhases = (
+				736E1D3E2B177EFA002307CE /* Sources */,
+				736E1D3F2B177EFA002307CE /* Frameworks */,
+				736E1D402B177EFA002307CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VimeoDemo;
+			packageProductDependencies = (
+				736E1D572B177F10002307CE /* Toolbox */,
+				736E1D602B1781DB002307CE /* Differentiator */,
+				736E1D622B1781DB002307CE /* RxDataSources */,
+			);
+			productName = VimeoDemo;
+			productReference = 736E1D422B177EFA002307CE /* VimeoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		736E1D3A2B177EFA002307CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					736E1D412B177EFA002307CE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 736E1D3D2B177EFA002307CE /* Build configuration list for PBXProject "VimeoDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 736E1D392B177EFA002307CE;
+			packageReferences = (
+				736E1D562B177F10002307CE /* XCRemoteSwiftPackageReference "toolbox" */,
+				736E1D5F2B1781DB002307CE /* XCRemoteSwiftPackageReference "RxDataSources" */,
+			);
+			productRefGroup = 736E1D432B177EFA002307CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				736E1D412B177EFA002307CE /* VimeoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		736E1D402B177EFA002307CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736E1D502B177EFB002307CE /* LaunchScreen.storyboard in Resources */,
+				736E1D4D2B177EFB002307CE /* Assets.xcassets in Resources */,
+				736E1D4B2B177EFA002307CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		736E1D3E2B177EFA002307CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736E1D5C2B178080002307CE /* VideoCellView.swift in Sources */,
+				736E1D672B179E8A002307CE /* VimeoRequest.swift in Sources */,
+				736E1D5A2B177F67002307CE /* AppState.swift in Sources */,
+				736E1D5E2B178187002307CE /* SearchVideoViewController.swift in Sources */,
+				736E1D652B179DC2002307CE /* VimeoVideo.swift in Sources */,
+				736E1D462B177EFA002307CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		736E1D492B177EFA002307CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				736E1D4A2B177EFA002307CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		736E1D4E2B177EFB002307CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				736E1D4F2B177EFB002307CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		736E1D512B177EFB002307CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		736E1D522B177EFB002307CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		736E1D542B177EFB002307CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 994D82WT25;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitcast.demo.VimeoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		736E1D552B177EFB002307CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 994D82WT25;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitcast.demo.VimeoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		736E1D3D2B177EFA002307CE /* Build configuration list for PBXProject "VimeoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				736E1D512B177EFB002307CE /* Debug */,
+				736E1D522B177EFB002307CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		736E1D532B177EFB002307CE /* Build configuration list for PBXNativeTarget "VimeoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				736E1D542B177EFB002307CE /* Debug */,
+				736E1D552B177EFB002307CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		736E1D562B177F10002307CE /* XCRemoteSwiftPackageReference "toolbox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/toolboxprovider/toolbox";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		736E1D5F2B1781DB002307CE /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		736E1D572B177F10002307CE /* Toolbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 736E1D562B177F10002307CE /* XCRemoteSwiftPackageReference "toolbox" */;
+			productName = Toolbox;
+		};
+		736E1D602B1781DB002307CE /* Differentiator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 736E1D5F2B1781DB002307CE /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = Differentiator;
+		};
+		736E1D622B1781DB002307CE /* RxDataSources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 736E1D5F2B1781DB002307CE /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = RxDataSources;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 736E1D3A2B177EFA002307CE /* Project object */;
+}
